@@ -15,6 +15,17 @@ let newArr = arr.map((e)=>{
 console.log(newArr)
 
 const greaterThanSeven = (e)=>{
-    return true
+    if(e>7){
+        return true
+    }
+    return false
+    
 }
-newArr.filter(greaterThanSeven)
+console.log(newArr.filter(greaterThanSeven))
+
+let arr2 = [1, 2, 3, 4, 5, 6]
+
+const red = (a, b)=>{
+    return a*b
+}
+console.log(arr2.reduce(red))
