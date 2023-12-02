@@ -13,3 +13,8 @@ let newArr = arr.map((e)=>{
 })
 
 console.log(newArr)
+
+const greaterThanSeven = (e)=>{
+    return true
+}
+newArr.filter(greaterThanSeven)
